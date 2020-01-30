@@ -1,0 +1,23 @@
+{
+  "name": "sample-art-site-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharkbearagator/sample-art-site-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sharkbearagator/sample-art-site-2/issues"
+  },
+  "homepage": "https://github.com/Sharkbearagator/sample-art-site-2#readme"
+}
