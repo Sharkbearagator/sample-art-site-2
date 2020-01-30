@@ -19,6 +19,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
     <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
       type="text/css"
       rel="stylesheet"
       href="./css/materialize.css"
@@ -26,6 +32,17 @@
     />
   </head>
   <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo"
+          ><i class="fa fa-paint-brush" aria-hidden="true"></i>Name Here</a
+        >
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="contact.html">Contact Info</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="parallax-container">
       <div class="parallax"><img src="./images/starry-night.jpg" /></div>
     </div>
@@ -33,13 +50,57 @@
       <div class="row container">
         <h2 class="header">Your Name Here's Art Portfolio</h2>
         <p class="grey-text text-darken-3 lighten-3">
-          View all your art here! Allow others to see what you have created and share it with the world!
+          View all your art here! Allow others to see what you have created and
+          share it with the world!
         </p>
       </div>
-    </div>
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-image">
+              <img src="./images/starry-night-castle.jpg" />
+            </div>
+            <div class="card-content">
+                <span class="card-title">Starry Night Castle</span>
+              <p>This piece is a take on Starry Night Made to show a castle.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/scream.jpg" />
+              </div>
+              <div class="card-content">
+                  <span class="card-title">The Scream</span>
+                <p>This piece is of a person screaming in shock.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/sunday-morning.jpg" />
+              </div>
+              <div class="card-content">
+                  <span class="card-title">A Sunday Afternoon on the Island of La Grande Jatte</span>
+                <p>This piece, made of different tiny pigments of material, is of a nice Sunday stroll at the park.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     <div class="parallax-container">
       <div class="parallax"><img src="./images/starry-night.jpg" /></div>
     </div>
+    <footer class="page-footer">
+        <div class="footer-container">
+            © 2020 Copyright
+            </div>
+          </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,6 +1,43 @@
-h2{
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+h2 {
+  color: #273461;
+}
+.parallaz-container {
+  text-align: center;
+  background-color: #c4aa39;
+}
+nav {
+  background-color: #c4aa39;
+}
+nav .brand-logo {
+  color: #0f1919;
+}
+nav ul a {
+  color: #0f1919;
+}
+.card {
+  height: 600px;
+}
+.footer-container{
+    text-align: center;
+    background-color: #c4aa39;
     color: #273461;
 }
-.parallaz-container{
+.page-footer{
+    background-color: #c4aa39;
+}
+.section{
     text-align: center;
+}
+p{
+    margin: inherit;
+    margin-top: 60px;
 }
