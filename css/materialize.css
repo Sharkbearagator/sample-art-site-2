@@ -41,3 +41,10 @@ p{
     margin: inherit;
     margin-top: 60px;
 }
+.header{
+  text-align: center;
+  margin-left: 250px;
+}
+.me{
+  margin-left: 325px;
+}
